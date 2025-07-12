@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://greenpixel.ct.ws/sitemap.xml
+Sitemap: https://greenpixel.pages.dev/sitemap.xml
