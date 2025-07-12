@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="google-site-verification" content="kUrrN09OUoArTEvdAtAT5mwtWyL1rRKZTWn02Q5gh1U" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台北內湖創作拍片空間｜綠幕短影音・舞蹈翻跳・直播剪輯｜200元有找、預約制工作坊</title>
+  <meta name="description" content="位於台北市內湖區的預約制創作空間，提供綠幕、舞蹈拍攝、遊戲實況直播與剪輯用途。">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="台北內湖創作拍片空間｜綠幕影片・舞蹈翻跳・直播剪輯｜預約制內容工作坊">
+  <meta name="description" content="限量預約空間，適合KPOP等舞蹈跳舞短影音拍攝、自帶筆電直播、提供大綠幕背景方便摳圖使用。每小時200元有找，全台最平價創作空間。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://greenpixel.ct.ws/">
+  <meta property="og:image" content="https://greenpixel.ct.ws/og-image.png">
+  <meta property="og:locale" content="zh_TW">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "台北內湖創作拍片空間",
+      "description": "限量預約空間，適合跳舞短影音拍攝、自帶筆電直播、綠幕合成影片與個人剪輯使用。低至每小時200元，台北最平價創作工作室。",
+      "url": "https://greenpixel.ct.ws/",
+      "image": "https://greenpixel.ct.ws/og-image.png",
+      "locationCreated": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "台北市內湖區民權東路六段"
+        }
+      }
+    }
+
+  </script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-60F3PNY9RR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60F3PNY9RR');
+  </script>
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+    .video-wrapper {
+      width: 100%;
+      max-width: 720px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(0, 255, 128, 0.2);
+      margin-bottom: 2rem;
+    }
+    iframe {
+      width: 100%;
+      height: 405px;
+      border: none;
+    }
+    .info {
+      max-width: 600px;
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.8;
+      text-align: center;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>創作影片專用空間</h1>
+    <p>綠幕錄影・跳舞拍片・直播剪輯</p>
+  </header>
+
+  <div class="video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/U2CH9TO6TlI?playlist=U2CH9TO6TlI&loop=1&autoplay=1&mute=1" 
+      title="展示影片" 
+      frameborder="0" 
+      allow="autoplay; encrypted-media" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+   <div class="info">
+    <ul>
+      <li>提供大面積背景綠幕以及雙色背景布</li>
+      <li>適合拍攝 KPOP 等舞蹈短影音，約4坪</li>
+      <li>適合自行攜帶筆電 OBS 串流直播，網速上下300，場地不用怕吵到鄰居</li>
+      <li>一小時 200 元有找，全台最便宜直播、拍片場地</li>
+    </ul>
+
+    <div style="margin-top: 2rem;">
+      <a id="line-button" href="https://line.me/ti/p/mJaxGT7we-" target="_blank" style="display: inline-block; background-color: #00c300; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-size: 1rem;">
+        📩 加入 LINE 預約場地
+      </a>
+    </div>
+
+
+
+
+  </div>
+
+
+
+  <footer>
+    <p>© 2025 創作空間 All rights reserved.台北市內湖區三總附近</p>
+  </footer>
+</body>
+</html>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const lineBtn = document.getElementById('line-button');
+    if (lineBtn) {
+      lineBtn.addEventListener('click', function() {
+        gtag('event', 'click', {
+          'event_category': 'CTA',
+          'event_label': 'Line 預約按鈕'
+        });
+      });
+    }
+  });
+</script>
+
