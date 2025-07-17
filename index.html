@@ -17,23 +17,72 @@
 
   <!-- Structured Data -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "台北內湖創作拍片空間",
-      "description": "限量預約空間，適合跳舞短影音拍攝、自帶筆電直播、綠幕合成影片與個人剪輯使用。低至每小時200元，台北最平價創作工作室。",
-      "url": "https://greenpixel.ct.ws/",
-      "image": "https://greenpixel.ct.ws/og-image.png",
-      "locationCreated": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "台北市內湖區民權東路六段"
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "GreenPixel 創作拍片空間",
+    "image": "https://greenpixel.pages.dev/og-image.png",
+    "@id": "https://greenpixel.pages.dev/",
+    "url": "https://greenpixel.pages.dev/",
+    "telephone": "+886-2-2794-5616",
+    "priceRange": "$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "民權東路六段",
+      "addressLocality": "內湖區",
+      "addressRegion": "台北市",
+      "postalCode": "114",
+      "addressCountry": "TW"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.083,
+      "longitude": 121.574
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "09:00",
+      "closes": "22:00"
+    }],
+    "description": "台北市內湖創作拍片空間，適合跳舞、實況、綠幕拍片與剪輯工作，每小時不到200元。"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "台北哪裡可以租綠幕拍片場地？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "位於台北市內湖的 GreenPixel 創作空間提供限量預約綠幕場地，適合拍攝跳舞短影音、直播與剪輯，每小時200元有找。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "這個拍片空間可以直播嗎？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "可以，自帶筆電與 OBS 軟體即可進行直播，場地網速上下300Mbps 且無噪音限制。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "適合什麼類型的拍攝？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "適合舞蹈翻跳、遊戲實況、YouTube 創作、商品介紹與短影音拍攝。"
         }
       }
-    }
-
+    ]
+  }
   </script>
+
+
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-60F3PNY9RR"></script>
@@ -104,8 +153,8 @@
 </head>
 <body>
   <header>
-    <h1>創作影片專用空間</h1>
-    <p>綠幕錄影・跳舞拍片・直播剪輯</p>
+    <h1>台北內湖創作影片空間｜綠幕錄影・舞蹈拍攝・直播剪輯</h1>
+    <h2>200元內！跳舞、實況、影片剪輯專用預約場地</h2>
   </header>
 
   <div class="video-wrapper">
